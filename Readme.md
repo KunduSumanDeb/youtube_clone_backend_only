@@ -18,5 +18,6 @@
 }, 
 ```
 - command 9 -- npm run dev -> this will run the index.js file.
-- command 10 -- git status -> To check the files that are present in unstaged area. -> command 2/3. 3 "Setup project files"
+- command 10 -- git status -> To check the files that are present in unstaged area. -> command 2/3. 3 - "Setup project files"
+- command 11 -- git push
 - ERD - [Model Link]( https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj)
