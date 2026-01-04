@@ -1,3 +1,22 @@
 # Backend of Youtube using JAVASCRIPT
 - command 1 -- npm init
+- command 2 -- git init
+- command 3 -- git add .
+- command 4 -- git commit -m "Add initial files for backend"
+- command 5 -- git branch -M main
+- command 6 -- git remote add origin [GitHub Link](https://github.com/KunduSumanDeb/youtube_clone_backend_only.git)
+- command 7 -- git push -u origin main
+- command 8 -- npm i -D nodemon -> "Automatically refreshes the server after saving the changes."
+- We need to change the test command to dev that is present within the package.json file.
+```json
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+->
+"scripts": {
+  "dev": "nodemon src/index.js"
+}, 
+```
+- command 9 -- npm run dev -> this will run the index.js file.
+- command 10 -- git status -> To check the files that are present in unstaged area. -> command 2/3. 3 "Setup project files"
 - ERD - [Model Link]( https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj)
