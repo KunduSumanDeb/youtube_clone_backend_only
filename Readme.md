@@ -22,4 +22,6 @@
 - command 11 -- git push
 - command 12 -- npm i mongoose dotenv express
 - Connected the database to my backend
+- utils section added. apiError, apiResponse, asyncHandeller files added.
+
 - ERD - [Model Link]( https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj)
