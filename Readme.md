@@ -23,5 +23,8 @@
 - command 12 -- npm i mongoose dotenv express
 - Connected the database to my backend
 - utils section added. apiError, apiResponse, asyncHandeller files added.
-
+- Command 13 -- npm i mongoose-aggregate-paginate-v2
+- Command 14 -- npm i bcrypt -> Provides encryption.
+- Command 15 -- npm i jsonwebtoken -> Verify tokens sent by   clients/ Secure APIs without storing sessions on the server/ it is a bearer token
+- User & Video Model Completed.
 - ERD - [Model Link]( https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj)
