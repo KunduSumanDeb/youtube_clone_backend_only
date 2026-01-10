@@ -29,4 +29,5 @@
 - User & Video Model Completed.
 - Command 16 -- npm i cloudinary
 - Command 17 -- npm i multer
+- All setup configured. user routes done data is getting fetched in PostMan Application. Controller file also added. All working fine. 11.1.26
 - ERD - [Model Link]( https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj)
