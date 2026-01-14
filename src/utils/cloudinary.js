@@ -6,11 +6,11 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-const uploadOnCloudinary = async (filePath) => {
+const uploadOnCloudinary = async (localFilePath) => {
     try {
-        if(!filePath) throw new Error("File path is required");
+        if(!localFilePath) throw new Error("File path is required");
         // Upload the file to Cloudinary
-        const response = await cloudinary.uploader.upload(filePath, {
+        const response = await cloudinary.uploader.upload(localFilePath, {
             resource_type: "auto",
         })
         // File has been uploaded, now we can remove it from the server
@@ -18,7 +18,7 @@ const uploadOnCloudinary = async (filePath) => {
         return response;
     }
     catch(error) {
-        fs.unlinkSync(filePath); // Remove the file from server in case of error
+        fs.unlinkSync(localFilePath); // Remove the file from server in case of error
         return null;
     }
 }
